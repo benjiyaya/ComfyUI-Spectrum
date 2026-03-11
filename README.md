@@ -11,7 +11,7 @@ Clone into ComfyUI’s `custom_nodes` and restart:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone <this-repo-url> ComfyUI-Spectrum
+git clone https://github.com/benjiyaya/ComfyUI-Spectrum
 ```
 
 ## Usage
