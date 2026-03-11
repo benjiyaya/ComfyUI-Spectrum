@@ -11,7 +11,7 @@ Clone into ComfyUI’s `custom_nodes` and restart:
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone <this-repo-url> ComfyUI-Spectrum
+git clone https://github.com/benjiyaya/ComfyUI-Spectrum
 ```
 
 ## Usage
@@ -42,3 +42,4 @@ No extra nodes. The patcher sits between the model and the sampler; it intercept
 - **`nodes.py`** — Single ComfyUI node that patches MODEL via `set_model_unet_function_wrapper`, using the core for “real vs forecast” and blend. Same path for image and video.
 
 State is per sampling branch (cond/uncond) and resets when the run restarts or shape/dtype/device changes.
+
